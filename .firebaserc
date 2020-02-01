@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "xfb-project",
+    "staging": "xfb-project"
+  }
+}

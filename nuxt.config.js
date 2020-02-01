@@ -1,5 +1,6 @@
 
 export default {
+  buildDir: 'functions/nuxt',
   babel: {
     presets: [
       'es2015',
