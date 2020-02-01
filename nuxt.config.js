@@ -1,5 +1,17 @@
 
 export default {
+  babel: {
+    presets: [
+      'es2015',
+      'stage-0'
+    ],
+    plugins: [
+      ['transform-runtime', {
+        'polyfill': true,
+        'regenerator': true,
+      }]
+    ],
+  },
   mode: 'universal',
   /*
   ** Headers of the page
@@ -43,10 +55,13 @@ export default {
   ** Build configuration
   */
   build: {
+    publicPath: '/public/',
+    vendor: ['axios', 'babel-polyfill'],
+    extractCSS: true,
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }
