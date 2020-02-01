@@ -1,0 +1,17 @@
+{
+  "name": "my-nuxt-app",
+  "version": "1.0.0",
+  "description": "My ultimate Nuxt.js project",
+  "author": "Sailaja Ramesh Nagireddy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
